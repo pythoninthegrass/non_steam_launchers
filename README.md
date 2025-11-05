@@ -20,7 +20,7 @@
 NonSteamLaunchers 🚀
 </h1>
 
-This script installs the latest UMU & GE-Proton and installs NonSteamLaunchers under one unique Proton prefix folder in your compatdata folder path called "NonSteamLaunchers" and adds them to your Steam Library. It will also add the games automatically in real time and will attempt to remove the games from your library in real time when you uninstall a game from a launcher. Collections for your games will also be created per launcher.
+This script installs the latest UMU & GE-Proton and installs NonSteamLaunchers under one unique Proton prefix folder in your compatdata folder path called "NonSteamLaunchers" and adds them to your Steam Library. It will also add the games automatically in real time and will attempt to remove the games from your library in real time when you uninstall a game from a launcher. Collections for your games will also be created per launcher. Play time is tracked for all non steam games as well as boot videos donloaded per shortcut if any exist. Non-Downloadable Game theme music is also applied to your library.
 NSL can be used on Desktop or in Game Mode, and don't you worry,
 Local Saves and Cloud saves are supported, as well as multiplayer/online support (because you're using the launchers). Obviously, certain anticheat games will not work on linux enviroments; this is on a game to game basis.
 
@@ -50,6 +50,8 @@ In both versions of NonSteamLaunchers, Desktop or Decky, NSL will back up your g
 
 
 -Pressing "Update Proton GE" in both the Desktop version or the Decky Plugin version, will give you the latest version of Proton GE and UMU. A patch will also be applied to allow Game Streaming from Discord in Game Mode.
+
+- Pressing the "Music Button" on the top left of your game page will enable/disble the Game Theme Feature. This simply attempts to play your games theme music in the client! You can even change the music if you dont like it with the paste button!. Clicking the button will hide and disable the feature.
 
 - [UMU Launcher](https://github.com/Open-Wine-Components/umu-launcher) is automatically used and is processed for each game and Launcher. Proton GE will be used where necessary.
 
